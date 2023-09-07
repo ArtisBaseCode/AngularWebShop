@@ -12,7 +12,7 @@ export class ProductsHeaderComponent {
   itemsShowCount: number;
   constructor(){
     this.sort ='desc';
-    this.itemsShowCount = 3;
+    this.itemsShowCount = 12;
   }
 
   onSortUpdated(s: string):void {
